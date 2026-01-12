@@ -11,3 +11,79 @@
 - **Поддержка комментариев** — C++-комментарии (`//`) конвертируются в Python-комментарии (`#`).  
 
 ---
+
+
+## example input.txt
+
+```
+//тест сразу же на все
+class Counter {
+    int value;
+
+    int get() {
+        return value;
+    }
+
+    int inc() {
+        value = value + 1;
+        return value;
+    }
+}
+
+int add(int a, int b) {
+    int result = a + b;
+    return result;
+}
+
+int main() {
+    int a;
+    int b = 5;
+    int sum;
+
+    cin >> a;
+    cin >> b;
+
+    sum = add(a, b);
+
+    if (sum) {
+        cout << sum;
+    }
+
+    int i = 0;
+    while (i) {
+        cout << i;
+        i = i - 1;
+    }
+
+    return sum; // sdadasdasd
+}
+```
+
+output.txt```
+# тест сразу же на все
+class Counter:
+    value = 0
+    def get():
+        return value
+    def inc():
+        value = value + 1
+        return value
+def add(a, b):
+    result = a + b
+    return result
+def main():
+    a = 0
+    b = 5
+    sum = 0
+    a = int(input())
+    b = int(input())
+    sum = add(a, b)
+    if sum:
+        print(sum)
+    i = 0
+    while i:
+        print(i)
+        i = i - 1
+    return sum
+    # sdadasdasd
+```
