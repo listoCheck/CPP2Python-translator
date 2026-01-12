@@ -13,8 +13,9 @@
 ---
 
 
-## example input.txt
+## example 
 
+input.txt
 ```
 //тест сразу же на все
 class Counter {
@@ -59,7 +60,8 @@ int main() {
 }
 ```
 
-output.txt```
+output.txt
+```
 # тест сразу же на все
 class Counter:
     value = 0
