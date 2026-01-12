@@ -1,0 +1,26 @@
+# тест сразу же на все
+class Counter:
+    value = 0
+    def get():
+        return value
+    def inc():
+        value = value + 1
+        return value
+def add(a, b):
+    result = a + b
+    return result
+def main():
+    a = 0
+    b = 5
+    sum = 0
+    a = int(input())
+    b = int(input())
+    sum = add(a, b)
+    if sum:
+        print(sum)
+    i = 0
+    while i:
+        print(i)
+        i = i - 1
+    return sum
+    # sdadasdasd

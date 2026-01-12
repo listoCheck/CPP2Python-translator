@@ -1,0 +1,41 @@
+//тест сразу же на все
+class Counter {
+    int value;
+
+    int get() {
+        return value;
+    }
+
+    int inc() {
+        value = value + 1;
+        return value;
+    }
+}
+
+int add(int a, int b) {
+    int result = a + b;
+    return result;
+}
+
+int main() {
+    int a;
+    int b = 5;
+    int sum;
+
+    cin >> a;
+    cin >> b;
+
+    sum = add(a, b);
+
+    if (sum) {
+        cout << sum;
+    }
+
+    int i = 0;
+    while (i) {
+        cout << i;
+        i = i - 1;
+    }
+
+    return sum; // sdadasdasd
+}
